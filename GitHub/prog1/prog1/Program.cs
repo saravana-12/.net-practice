@@ -10,7 +10,7 @@ namespace prog1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("testing");
+            Console.WriteLine("the");
         }
     }
 }
