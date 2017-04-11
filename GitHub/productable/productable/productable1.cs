@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace productable
 {
-    class Program
+    class productable1
     {
         static void Main(string[] args)
         {
