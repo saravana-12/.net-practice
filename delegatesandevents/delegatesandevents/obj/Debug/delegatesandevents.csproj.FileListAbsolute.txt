@@ -1,0 +1,2 @@
+c:\users\saravana\documents\visual studio 2015\Projects\delegatesandevents\delegatesandevents\bin\Debug\delegatesandevents.exe.config
+c:\users\saravana\documents\visual studio 2015\Projects\delegatesandevents\delegatesandevents\obj\Debug\delegatesandevents.csprojResolveAssemblyReference.cache

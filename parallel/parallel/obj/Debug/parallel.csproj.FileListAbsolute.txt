@@ -1,0 +1,6 @@
+c:\users\saravana\documents\visual studio 2015\Projects\parallel\parallel\bin\Debug\parallel.exe.config
+c:\users\saravana\documents\visual studio 2015\Projects\parallel\parallel\bin\Debug\parallel.exe
+c:\users\saravana\documents\visual studio 2015\Projects\parallel\parallel\bin\Debug\parallel.pdb
+c:\users\saravana\documents\visual studio 2015\Projects\parallel\parallel\obj\Debug\parallel.csprojResolveAssemblyReference.cache
+c:\users\saravana\documents\visual studio 2015\Projects\parallel\parallel\obj\Debug\parallel.exe
+c:\users\saravana\documents\visual studio 2015\Projects\parallel\parallel\obj\Debug\parallel.pdb

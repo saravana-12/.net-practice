@@ -1,0 +1,6 @@
+c:\users\saravana\documents\visual studio 2015\Projects\helloo\helloo\bin\Debug\helloo.exe.config
+c:\users\saravana\documents\visual studio 2015\Projects\helloo\helloo\bin\Debug\helloo.exe
+c:\users\saravana\documents\visual studio 2015\Projects\helloo\helloo\bin\Debug\helloo.pdb
+c:\users\saravana\documents\visual studio 2015\Projects\helloo\helloo\obj\Debug\helloo.csprojResolveAssemblyReference.cache
+c:\users\saravana\documents\visual studio 2015\Projects\helloo\helloo\obj\Debug\helloo.exe
+c:\users\saravana\documents\visual studio 2015\Projects\helloo\helloo\obj\Debug\helloo.pdb
