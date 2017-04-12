@@ -8,24 +8,26 @@ namespace stringreverse
 {
     class strrev
     {
+        
         static void Main(string[] args)
         {
-           string outp= reverse();
-            Console.WriteLine(outp);
+            string Revstr=(Reverse());
+            Console.WriteLine("Reverse  String  Is  {0}", Revstr);
         }
-    public static string reverse()
+        public static string Reverse()
         {
-            string revstr="";
-            Console.WriteLine("enter string");
-          string  instr = Convert.ToString(Console.Read());
-            for (int i = instr.Length - 1; i >= 1; i--)
-            {
-                revstr = revstr + instr[instr.Length - i];
+            string Str, Revstr = "";
+            Console.Write("Enter A String : ");
+            Str = Console.ReadLine();
 
+            for (int i = Str.Length - 1; i >= 0; i--)
+            {
+
+                Revstr = Revstr + Str[i];
             }
-            Console.WriteLine("reverse string");
-            Console.WriteLine(revstr);
-            return revstr;
+
+           
+            return Revstr;
         }
     }
 }
