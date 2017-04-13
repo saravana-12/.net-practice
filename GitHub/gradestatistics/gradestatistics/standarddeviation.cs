@@ -17,9 +17,7 @@ namespace gradestatistics
             }
             x = x / grad.Length;
             stdev = Math.Sqrt(x - (avg * avg));
-            return stdev;
-        
-
+            return stdev;       
         }
     }
 }

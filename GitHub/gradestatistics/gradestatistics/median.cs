@@ -24,11 +24,14 @@ namespace gradestatistics
                     }
                 }
             }
+            
             int n = a.Length;
             if (n % 2 == 0)
-                med = (a[(n / 2)] + a[(n / 2) + 1]);
+                med = (a[(n / 2)] + a[(n / 2) - 1]) / 2;
             else
                 med = a[n / 2];
+
+           
             return med;
         }
     }

@@ -15,7 +15,7 @@ namespace gradestatistics
             Console.WriteLine("maximum grade={0}",grad.Max());
             Console.WriteLine("minimum grade={0}",grad.Min());
             Console.WriteLine("median={0}", median.mediancalc(grad));
-            Console.WriteLine("standard deviation={0}",standarddeviation.stdcalc(grad, median.mediancalc(grad)));
+            Console.WriteLine("standard deviation={0}",standarddeviation.stdcalc(grad, average.averagecalc(grad)));
         }
     }
 }
