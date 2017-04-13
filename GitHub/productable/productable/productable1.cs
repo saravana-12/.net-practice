@@ -10,13 +10,35 @@ namespace productable
     {
         static void Main(string[] args)
         {
-            int sum = 0;
-            for (int row = 1; row <= 9; row++)
+            int sum = 0,t=1,u=1;
+            for (int row = 0; row <= 9; row++)
             {
-                for (int col = 1; col <= 9; col++)
+                for (int col = 0; col <= 9; col++)
                 {
-                    sum = row * col;
-                    Console.Write("{0} ", sum);
+                    if (row == 0 && col == 0)
+                        Console.Write("* \t");
+                    else if (row == 0 && col != 1)
+                    {
+                    
+                        Console.Write("{0} \t",t);
+                        t++;
+                    }
+                    else if (row !=1 && col == 0)
+                    {
+
+                        Console.Write("{0} \t",u);
+                        u++;
+                    }
+                    else if(row==1)
+                        Console.Write("_\t");
+                    else if (col == 1)
+                        Console.Write("|\t");
+                    else
+                    {
+                        sum = (row-1) * (col-1);
+                        Console.Write("{0} \t ", sum);
+                    }
+                   
                 }
                 Console.WriteLine();
             }
