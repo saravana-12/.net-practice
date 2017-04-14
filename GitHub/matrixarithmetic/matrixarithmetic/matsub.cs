@@ -24,7 +24,7 @@ namespace matrixarithmetic
             {
                 for (int j = 0; j < col1; j++)
                 {
-                    Console.Write(subresult[i, j]);
+                    Console.Write("{0}\t",subresult[i, j]);
                 }
                 Console.WriteLine();
             }

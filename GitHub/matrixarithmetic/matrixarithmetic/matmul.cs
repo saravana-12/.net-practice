@@ -30,7 +30,7 @@ namespace matrixarithmetic
             {
                 for (int j = 0; j < col2; j++)
                 {
-                    Console.Write(mulresult[i, j]);
+                    Console.Write("{0}\t",mulresult[i, j]);
                 }
                 Console.WriteLine();
             }
